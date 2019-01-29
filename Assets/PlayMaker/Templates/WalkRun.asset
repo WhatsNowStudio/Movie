@@ -238,7 +238,7 @@ MonoBehaviour:
         - 0
         - 1
         - 1
-        byteData: 00300100003201000066000000
+        byteData: 00300100003201000073000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -669,7 +669,7 @@ MonoBehaviour:
         stringParams:
         - Go
         - Go
-        byteData: 003201000066000000
+        byteData: 003201000073000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
