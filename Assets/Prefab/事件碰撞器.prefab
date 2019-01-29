@@ -43,6 +43,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1539378098748572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4014032768858794}
+  - component: {fileID: 65800968967269050}
+  - component: {fileID: 114012001154425000}
+  m_Layer: 0
+  m_Name: "\u96FB\u8ECA\u4E2D\u8FFD\u9010"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1930272346961178
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,19 +77,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4014032768858794
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539378098748572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.83, y: 4.18, z: 2.48}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 4347295323642940}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4143180050600762
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1930272346961178}
-  m_LocalRotation: {x: -0, y: 0.7111755, z: -0, w: 0.70301455}
-  m_LocalPosition: {x: -29.14, y: 4.18, z: -10.04}
+  m_LocalRotation: {x: -0, y: 0.840488, z: -0, w: 0.54183024}
+  m_LocalPosition: {x: -28.42, y: 4.18, z: -11.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4347295323642940}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 90.661, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 114.383, z: 0}
 --- !u!4 &4347295323642940
 Transform:
   m_ObjectHideFlags: 1
@@ -85,6 +115,7 @@ Transform:
   m_Children:
   - {fileID: 4884253250098504}
   - {fileID: 4143180050600762}
+  - {fileID: 4014032768858794}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -95,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1158031871139866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.56, y: 4.18, z: 16.73}
+  m_LocalPosition: {x: -34.56, y: 4.18, z: 24.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4347295323642940}
@@ -125,6 +156,164 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 10, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65800968967269050
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539378098748572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.87, y: 10, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114012001154425000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539378098748572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: "\u4E8B\u4EF6\u78B0\u649E\u5668"
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events: []
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Obj/Target1
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/Target2
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 3
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 11400000, guid: cc509b7245ebb2047b349143bd0de056, type: 2}
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114154558985803630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,7 +397,13 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Obj/Target
+        name: Obj/Target1
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/Target2
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -220,7 +415,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -348,7 +543,13 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Obj/Target
+        name: Obj/Target1
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/Target2
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -360,7 +561,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
