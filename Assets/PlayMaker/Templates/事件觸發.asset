@@ -151,7 +151,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000000
+        actionIsOpen: 0001000000
         actionStartIndex: 000000000f00000014000000170000001b000000
         actionHashCodes: d9ade603b2cf100071c75a03184b5704b2cf1000
         unityObjectParams: []
@@ -397,12 +397,12 @@ MonoBehaviour:
     events:
     - name: TouchTrigger
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: TouchTrigger
         isSystemEvent: 0
-        isGlobal: 1
+        isGlobal: 0
       toState: "\u641C\u5C0B\u4E8B\u4EF6"
       linkStyle: 0
       linkConstraint: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

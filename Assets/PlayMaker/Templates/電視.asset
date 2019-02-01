@@ -78,7 +78,7 @@ MonoBehaviour:
         x: 240
         y: 110
         width: 114.8
-        height: 64
+        height: 80
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -104,6 +104,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: "\u5F71\u72473\u30014\u8D77\u59CB"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 3
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: QRCODE
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -195,7 +203,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: "\u96FB\u8996\u51FA\u73FEQRCODE"
         - useVariable: 0
           name: 
           tooltip: 
@@ -292,7 +300,7 @@ MonoBehaviour:
         - 0
         - 1
         - 2
-        - 
+        - 3
         - 
         byteData: 0000
         arrayParamSizes: 0500000005000000
@@ -592,6 +600,91 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000001000000
+    - name: QRCODE
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 428
+        y: 253
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.AnimatorPlay
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: c34b4105
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/TV
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: QRCODE
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000100000000f00000001000000
+        paramName:
+        - gameObject
+        - stateName
+        - layer
+        - normalizedTime
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000000000001000000
     events:
     - name: 0
       isSystemEvent: 0
@@ -602,14 +695,17 @@ MonoBehaviour:
     - name: 2
       isSystemEvent: 0
       isGlobal: 0
+    - name: 3
+      isSystemEvent: 0
+      isGlobal: 0
     - name: TouchTrigger
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: TouchTrigger
         isSystemEvent: 0
-        isGlobal: 1
+        isGlobal: 0
       toState: "\u4E8B\u4EF6\u89F8\u767C"
       linkStyle: 0
       linkConstraint: 0

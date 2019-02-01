@@ -1391,7 +1391,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.9947576, g: 1, b: 0.8254717, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 1
   m_Range: 80
   m_SpotAngle: 65
   m_CookieSize: 10
@@ -1403,7 +1403,7 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-  m_Cookie: {fileID: 2800000, guid: 6bfd6a4df906b8840aeaddda0a149519, type: 3}
+  m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -7156,171 +7156,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key0.r
-      value: 0.9433962
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key0.g
-      value: 0.24474904
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key0.b
-      value: 0.24474904
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key1.r
-      value: 0.8113208
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key1.g
-      value: 0.7220001
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key1.b
-      value: 0.14925243
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key2.r
-      value: 0.03867124
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key2.g
-      value: 0.8584906
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key2.b
-      value: 0.020247417
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.ctime1
-      value: 23708
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.ctime2
-      value: 43176
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.m_NumColorKeys
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key3.r
-      value: 0.11534355
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key3.g
-      value: 0.51191854
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key3.b
-      value: 0.9056604
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.ctime3
-      value: 53392
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key4.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key4.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key4.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.ctime4
-      value: 65535
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.minGradient.key0.a
-      value: 0.08235294
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.minGradient.key1.a
-      value: 0.22745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key0.a
-      value: 0.32156864
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxGradient.key1.a
-      value: 0.24313726
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: SizeModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startSize.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.maxNumParticles
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198522690650853844, guid: 24e5f005f1ee173449f3638934da1472,
-        type: 2}
-      propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.67058825
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e5f005f1ee173449f3638934da1472, type: 2}
   m_IsPrefabAsset: 0
@@ -8631,6 +8466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 258691440}
+  - component: {fileID: 258691441}
   m_Layer: 0
   m_Name: "\u9858\u671B\u50B3\u9001\u9580"
   m_TagString: Untagged
@@ -8652,6 +8488,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &258691441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258691439}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4f882e0d171fa1439a01551a5f1bf0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &260261438
 GameObject:
   m_ObjectHideFlags: 0
@@ -11109,6 +10963,198 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 440946, guid: 5ab80a9e632dff940949babd7a636002,
     type: 2}
   m_PrefabInternal: {fileID: 1971327296}
+--- !u!1001 &336561027
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114134315456343520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
+      value: 
+      objectReference: {fileID: 1251026057}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
+      value: 
+      objectReference: {fileID: 258691439}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.handleTriggerEnter
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &336561028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1347362435869332, guid: a329050accfc4e345b398191f65f0a34,
+    type: 2}
+  m_PrefabInternal: {fileID: 336561027}
 --- !u!1 &338706182
 GameObject:
   m_ObjectHideFlags: 0
@@ -12785,7 +12831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &372640734
 Light:
   m_ObjectHideFlags: 0
@@ -17369,6 +17415,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509079562}
   m_Mesh: {fileID: 4300000, guid: a76a6ea3824bb4340bbfff27af664bf8, type: 3}
+--- !u!1001 &511739826
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 258691440}
+    m_Modifications:
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 67.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 79.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.265606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.96408165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.806002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &512445671
 GameObject:
   m_ObjectHideFlags: 0
@@ -21713,148 +21805,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631159108}
   m_Mesh: {fileID: 4300000, guid: df90cb8dfe64fe045b2322f86ef44229, type: 3}
---- !u!1001 &632224509
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4347295323642940, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114134315456343520, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
-      value: 
-      objectReference: {fileID: 1251026057}
-    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a329050accfc4e345b398191f65f0a34, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &639485386
 Prefab:
   m_ObjectHideFlags: 0
@@ -22213,32 +22163,32 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 258691439}
+    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 258691439}
     - target: {fileID: 224929731989689258, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224577076435349280, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 224870858713488302, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224069498377061148, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 224357561553147692, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224202849399850506, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224524781094522840, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224876673448572506, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 224566224057566412, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -22248,7 +22198,32 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224217778096167928, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 224524781094522840, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224202849399850506, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224784052059285184, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224069498377061148, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224946784541569290, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224772792200099550, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -22258,7 +22233,17 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224946784541569290, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 224577076435349280, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224876673448572506, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224217778096167928, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -41608,7 +41593,7 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757,
     type: 2}
-  m_PrefabInternal: {fileID: 1339551184}
+  m_PrefabInternal: {fileID: 511739826}
 --- !u!1 &1141099254
 GameObject:
   m_ObjectHideFlags: 0
@@ -49713,48 +49698,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1336001125}
   m_Mesh: {fileID: 4300000, guid: 5df21452527f2c34c8d07bfe4a5d018a, type: 3}
---- !u!1001 &1339551184
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 258691440}
-    m_Modifications:
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 69.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.467
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 77.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.12689786
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.9919158
-      objectReference: {fileID: 0}
-    - target: {fileID: 4579087631642622, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &1341214736
 GameObject:
   m_ObjectHideFlags: 0
@@ -76282,6 +76225,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1843994785}
   m_Mesh: {fileID: 4300000, guid: 5bbaf30afd9ba4a47a38f87c49ca5ce1, type: 3}
+--- !u!1 &1844810786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126215854821972, guid: a329050accfc4e345b398191f65f0a34,
+    type: 2}
+  m_PrefabInternal: {fileID: 336561027}
 --- !u!1 &1845987719
 GameObject:
   m_ObjectHideFlags: 0
@@ -76771,17 +76719,17 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: "\u7B49\u5F85\u6309\u4E0B"
+    startState: "\u524D\u7F6E\u4F5C\u696D"
     states:
-    - name: "\u7B49\u5F85\u6309\u4E0B"
+    - name: "\u7B49\u5F85\u6309\u4E0B-----"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 61
-        y: 113
-        width: 100
-        height: 112
+        x: 249
+        y: 131.98438
+        width: 106
+        height: 160
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -76834,9 +76782,35 @@ MonoBehaviour:
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
+      - fsmEvent:
+          name: 6
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u958B\u555F\u4E8B\u4EF63\u30014"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 7
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u958B\u555F\u4E8B\u4EF65.6.7"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 8
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u95DC\u9589\u9580"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.GetKeyDown
+        - HutongGames.PlayMaker.Actions.GetKeyDown
+        - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.GetKeyDown
@@ -76851,21 +76825,15 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
-        actionStartIndex: 0000000005000000080000000b0000000e0000001100000014000000
-        actionHashCodes: b2cf1000ff77a904ff77a904ff77a904ff77a904ff77a904ff77a904
+        - 
+        - 
+        actionEnabled: 010101010101010101
+        actionIsOpen: 000000000000000001
+        actionStartIndex: 000000000300000006000000090000000c0000000f000000120000001500000018000000
+        actionHashCodes: ff77a904ff77a904ff77a904ff77a904ff77a904ff77a904ff77a904ff77a904ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: "Obj/\u4F5C\u696D\u7528\u71C8\u5149"
-            tooltip: 
-            showInInspector: 1
-            networkSync: 0
-            value: {fileID: 372640733}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -76881,12 +76849,18 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: "Bool/\u4F5C\u696D\u71C8\u5149"
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -76940,18 +76914,16 @@ MonoBehaviour:
         - 3
         - 4
         - 5
-        byteData: 000025010000240100003d0000002d0000001a0100001b010000
+        - 6
+        - 7
+        - 8
+        byteData: 25010000240100003d0000002d0000001a0100001b0100001c0100001d0100001e010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000011000000110000000100000001000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000
+        paramDataType: 070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000070000001700000011000000
         paramName:
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
         - key
         - sendEvent
         - storeResult
@@ -76970,15 +76942,24 @@ MonoBehaviour:
         - key
         - sendEvent
         - storeResult
-        paramDataPos: 00000000000000000100000000000000010000000200000000000000020000000600000001000000030000000a00000002000000040000000e0000000300000005000000120000000400000006000000160000000500000007000000
-        paramByteDataSize: 0000000000000000000000000100000001000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000
+        - key
+        - sendEvent
+        - storeResult
+        - key
+        - sendEvent
+        - storeResult
+        - key
+        - sendEvent
+        - storeResult
+        paramDataPos: 0000000000000000000000000400000001000000010000000800000002000000020000000c00000003000000030000001000000004000000040000001400000005000000050000001800000006000000060000001c0000000700000007000000200000000800000008000000
+        paramByteDataSize: 040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000040000000000000000000000
     - name: "\u958B\u5834\u666F\u71C8"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 228
-        y: 109
+        x: 468
+        y: 125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -76989,7 +76970,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -77073,8 +77054,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 230
-        y: 174
+        x: 470
+        y: 190
         width: 100
         height: 32
       isBreakpoint: 0
@@ -77085,7 +77066,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -77159,8 +77140,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 232
-        y: 235
+        x: 472
+        y: 251
         width: 100
         height: 32
       isBreakpoint: 0
@@ -77171,7 +77152,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -77509,8 +77490,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 229.5
-        y: 288
+        x: 469.5
+        y: 304
         width: 100
         height: 32
       isBreakpoint: 0
@@ -77521,7 +77502,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -77859,8 +77840,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 233
-        y: 339
+        x: 473
+        y: 355
         width: 110.8
         height: 32
       isBreakpoint: 0
@@ -77871,7 +77852,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -78002,8 +77983,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 226.5
-        y: 395
+        x: 466.5
+        y: 411
         width: 110.8
         height: 32
       isBreakpoint: 0
@@ -78014,7 +77995,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u7B49\u5F85\u6309\u4E0B"
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -78140,6 +78121,516 @@ MonoBehaviour:
         - lateUpdate
         paramDataPos: 00000000000000000000000001000000020000000000000004000000010000000100000003000000040000000500000005000000090000000a000000
         paramByteDataSize: 000000000000000000000000000000000000000004000000010000000000000000000000000000000000000000000000040000000100000001000000
+    - name: "\u958B\u555F\u4E8B\u4EF63\u30014"
+      description: "#\u95DC\u95895.6.7"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 470
+        y: 474
+        width: 107.6
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4E8B\u4EF63\u30014"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 336561028}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4E8B\u4EF65\u30016\u30017"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1844810786}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u50B3\u9001\u9580"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 258691439}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000200000004000000050000000400000005000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
+    - name: "\u958B\u555F\u4E8B\u4EF65.6.7"
+      description: "#\u95DC\u95893.4"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 469
+        y: 533.8672
+        width: 112.4
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4E8B\u4EF65\u30016\u30017"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1844810786}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4E8B\u4EF63\u30014"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 336561028}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u50B3\u9001\u9580"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 258691439}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000200000004000000050000000400000005000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
+    - name: "\u524D\u7F6E\u4F5C\u696D"
+      description: "#\u9810\u8A2D\u95DC\u9589\u4E8B\u4EF65.6.7"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 53
+        y: 111
+        width: 121.600006
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4F5C\u696D\u7528\u71C8\u5149"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 372640733}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u4E8B\u4EF65\u30016\u30017"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1844810786}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u50B3\u9001\u9580"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 258691439}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: "Bool/\u4F5C\u696D\u71C8\u5149"
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000200000004000000050000000400000005000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
+    - name: "\u95DC\u9589\u9580"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 476
+        y: 608
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u7B49\u5F85\u6309\u4E0B-----"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: b2cf1000
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: "Obj/\u50B3\u9001\u9580"
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 258691439}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000011000000110000000100000001000000
+        paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -78160,6 +78651,15 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: 5
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 6
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 7
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 8
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -78199,6 +78699,18 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
+        name: "Obj/\u4E8B\u4EF63\u30014"
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 336561028}
+      - useVariable: 1
+        name: "Obj/\u4E8B\u4EF65\u30016\u30017"
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1844810786}
+      - useVariable: 1
         name: "Obj/\u4F4D\u7F6E\u9EDE0"
         tooltip: 
         showInInspector: 1
@@ -78216,6 +78728,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: {fileID: 372640733}
+      - useVariable: 1
+        name: "Obj/\u50B3\u9001\u9580"
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 258691439}
       objectVariables:
       - useVariable: 1
         name: Obj/FPSCONTROL
@@ -78230,7 +78748,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
