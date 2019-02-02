@@ -243,10 +243,10 @@ MonoBehaviour:
     events:
     - name: Open
       isSystemEvent: 0
-      isGlobal: 1
+      isGlobal: 0
     - name: TouchTrigger
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: TouchTrigger
@@ -259,7 +259,7 @@ MonoBehaviour:
     - fsmEvent:
         name: Open
         isSystemEvent: 0
-        isGlobal: 1
+        isGlobal: 0
       toState: "\u958B\u9580"
       linkStyle: 0
       linkConstraint: 0
@@ -292,7 +292,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

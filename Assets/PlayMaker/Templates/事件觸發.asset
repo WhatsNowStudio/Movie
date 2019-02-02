@@ -397,7 +397,7 @@ MonoBehaviour:
     events:
     - name: TouchTrigger
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: TouchTrigger

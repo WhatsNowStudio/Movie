@@ -78,7 +78,7 @@ MonoBehaviour:
         x: 240
         y: 110
         width: 114.8
-        height: 80
+        height: 96
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -112,6 +112,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: QRCODE
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 4
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u8001\u4EBA\u8AAA\u8A71"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -209,7 +217,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: "\u770B\u5411\u9580\u3001\u8001\u4EBA\u51FA\u73FE"
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "\u9032\u5165\u904A\u6232"
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -301,15 +315,16 @@ MonoBehaviour:
         - 1
         - 2
         - 3
-        - 
+        - 4
+        - 2
         byteData: 0000
-        arrayParamSizes: 0500000005000000
+        arrayParamSizes: 0600000006000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000130000001200000001000000120000000c00000012000000120000001200000012000000120000000c000000170000001700000017000000170000001700000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000130000001200000001000000120000000c0000001200000012000000120000001200000012000000120000000c00000017000000170000001700000017000000170000001700000001000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -336,15 +351,17 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - sendEvent
         - 
         - 
         - 
         - 
         - 
+        - 
         - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000200000002000000000000000300000000000000040000000500000006000000070000000800000001000000000000000100000002000000030000000400000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000020000000000000003000000000000000400000005000000060000000700000008000000090000000100000000000000010000000200000003000000040000000500000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u6253\u958B\u96FB\u8996\u6709\u96DC\u8A0A"
       description: 
       colorIndex: 0
@@ -685,6 +702,91 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000001000000
+    - name: "\u8001\u4EBA\u8AAA\u8A71"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 453
+        y: 316
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.AnimatorPlay
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: c34b4105
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/TV
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "\u8072\u6CE2"
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000100000000f00000001000000
+        paramName:
+        - gameObject
+        - stateName
+        - layer
+        - normalizedTime
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000000000001000000
     events:
     - name: 0
       isSystemEvent: 0
@@ -698,14 +800,17 @@ MonoBehaviour:
     - name: 3
       isSystemEvent: 0
       isGlobal: 0
-    - name: TouchTrigger
+    - name: 4
       isSystemEvent: 0
       isGlobal: 0
+    - name: TouchTrigger
+      isSystemEvent: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: TouchTrigger
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u4E8B\u4EF6\u89F8\u767C"
       linkStyle: 0
       linkConstraint: 0
