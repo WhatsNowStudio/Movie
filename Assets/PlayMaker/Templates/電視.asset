@@ -78,7 +78,7 @@ MonoBehaviour:
         x: 240
         y: 110
         width: 114.8
-        height: 96
+        height: 112
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -120,6 +120,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: "\u8001\u4EBA\u8AAA\u8A71"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 5
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u4E3B\u89D2\u9762\u5C0D\u96FB\u8996?"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -224,6 +232,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: "\u9032\u5165\u904A\u6232"
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "\u96FB\u8996\u71C8\u5149\u7A81\u7136\u958B\u555F"
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -317,14 +331,15 @@ MonoBehaviour:
         - 3
         - 4
         - 2
+        - 5
         byteData: 0000
-        arrayParamSizes: 0600000006000000
+        arrayParamSizes: 0700000007000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000130000001200000001000000120000000c0000001200000012000000120000001200000012000000120000000c00000017000000170000001700000017000000170000001700000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000130000001200000001000000120000000c000000120000001200000012000000120000001200000012000000120000000c0000001700000017000000170000001700000017000000170000001700000001000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -352,6 +367,7 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - sendEvent
         - 
         - 
@@ -359,9 +375,10 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000020000000000000003000000000000000400000005000000060000000700000008000000090000000100000000000000010000000200000003000000040000000500000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000020000000000000003000000000000000400000005000000060000000700000008000000090000000a000000010000000000000001000000020000000300000004000000050000000600000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u6253\u958B\u96FB\u8996\u6709\u96DC\u8A0A"
       description: 
       colorIndex: 0
@@ -452,7 +469,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 429.5
+        x: 484.5
         y: 160
         width: 100
         height: 16
@@ -787,6 +804,58 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000000000000000000000000000001000000
+    - name: "\u4E3B\u89D2\u9762\u5C0D\u96FB\u8996?"
+      description: "#\u958B\u555F\u71C8"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 429
+        y: 378
+        width: 109.2
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: 0
       isSystemEvent: 0
@@ -801,6 +870,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: 4
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 5
       isSystemEvent: 0
       isGlobal: 0
     - name: TouchTrigger

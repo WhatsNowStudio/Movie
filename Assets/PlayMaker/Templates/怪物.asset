@@ -667,7 +667,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000000
+        actionIsOpen: 0000010000
         actionStartIndex: 0000000003000000050000000a00000011000000
         actionHashCodes: 9845b3059bd6f8014ded5503fa0e54024e661301
         unityObjectParams: []
@@ -2559,7 +2559,7 @@ MonoBehaviour:
     - fsmEvent:
         name: TouchTrigger
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u5224\u65B7\u4E8B\u4EF6"
       linkStyle: 0
       linkConstraint: 0
