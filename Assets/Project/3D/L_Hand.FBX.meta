@@ -1,31 +1,52 @@
 fileFormatVersion: 2
-guid: a2e4082678e426248ad5cfcba703c007
+guid: cb0f18a81b112e045ab631ed0ebc61c2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: prop_iphone_front
-    100002: prop_iphone_glass
-    100004: prop_iphone_hole
-    100006: prop_iphone_main
-    100008: //RootNode
-    400000: prop_iphone_front
-    400002: prop_iphone_glass
-    400004: prop_iphone_hole
-    400006: prop_iphone_main
-    400008: //RootNode
-    2100000: wire_224198088
-    2300000: prop_iphone_front
-    2300002: prop_iphone_glass
-    2300004: prop_iphone_hole
-    2300006: prop_iphone_main
-    3300000: prop_iphone_front
-    3300002: prop_iphone_glass
-    3300004: prop_iphone_hole
-    3300006: prop_iphone_main
-    4300000: prop_iphone_front
-    4300002: prop_iphone_hole
-    4300004: prop_iphone_glass
-    4300006: prop_iphone_main
+    100000: Bip01 R Finger0
+    100002: Bip01 R Finger01
+    100004: Bip01 R Finger0Nub
+    100006: Bip01 R Finger1
+    100008: Bip01 R Finger11
+    100010: Bip01 R Finger1Nub
+    100012: Bip01 R Finger2
+    100014: Bip01 R Finger21
+    100016: Bip01 R Finger2Nub
+    100018: Bip01 R Finger3
+    100020: Bip01 R Finger31
+    100022: Bip01 R Finger3Nub
+    100024: Bip01 R Finger4
+    100026: Bip01 R Finger41
+    100028: Bip01 R Finger4Nub
+    100030: Bip01 R Forearm
+    100032: Bip01 R Hand
+    100034: Bip01 R UpperArm
+    100036: Hand_L
+    100038: //RootNode
+    400000: Bip01 R Finger0
+    400002: Bip01 R Finger01
+    400004: Bip01 R Finger0Nub
+    400006: Bip01 R Finger1
+    400008: Bip01 R Finger11
+    400010: Bip01 R Finger1Nub
+    400012: Bip01 R Finger2
+    400014: Bip01 R Finger21
+    400016: Bip01 R Finger2Nub
+    400018: Bip01 R Finger3
+    400020: Bip01 R Finger31
+    400022: Bip01 R Finger3Nub
+    400024: Bip01 R Finger4
+    400026: Bip01 R Finger41
+    400028: Bip01 R Finger4Nub
+    400030: Bip01 R Forearm
+    400032: Bip01 R Hand
+    400034: Bip01 R UpperArm
+    400036: Hand_L
+    400038: //RootNode
+    2100000: body
+    4300000: Hand_L
+    9500000: //RootNode
+    13700000: Hand_L
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -77,11 +98,11 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
@@ -102,7 +123,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
