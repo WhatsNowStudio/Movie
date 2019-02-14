@@ -115,7 +115,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Opening
+          value: Touch
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -251,7 +251,7 @@ MonoBehaviour:
     - fsmEvent:
         name: TouchTrigger
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u64AD\u653E\u958B\u9580\u4E2D\u52D5\u756B"
       linkStyle: 0
       linkConstraint: 0

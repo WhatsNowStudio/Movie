@@ -23,6 +23,8 @@ ModelImporter:
     100034: Bip01 R UpperArm
     100036: Hand_L
     100038: //RootNode
+    100040: casual23_m_highpoly
+    100042: Hand
     400000: Bip01 R Finger0
     400002: Bip01 R Finger01
     400004: Bip01 R Finger0Nub
@@ -43,10 +45,16 @@ ModelImporter:
     400034: Bip01 R UpperArm
     400036: Hand_L
     400038: //RootNode
+    400040: casual23_m_highpoly
+    400042: Hand
     2100000: body
     4300000: Hand_L
+    4300002: casual23_m_highpoly
+    4300004: Hand
     9500000: //RootNode
     13700000: Hand_L
+    13700002: casual23_m_highpoly
+    13700004: Hand
   externalObjects: {}
   materials:
     importMaterials: 1

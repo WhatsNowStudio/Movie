@@ -78,7 +78,7 @@ MonoBehaviour:
         x: 240
         y: 190
         width: 114.8
-        height: 112
+        height: 128
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -128,6 +128,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: "\u4E3B\u89D2\u9762\u5C0D\u96FB\u8996?"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: 6
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u958B\u555F\u71C8"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -330,7 +338,7 @@ MonoBehaviour:
         - 2
         - 3
         - 4
-        - 2
+        - 6
         - 5
         byteData: 0000
         arrayParamSizes: 0700000007000000
@@ -1301,6 +1309,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: 5
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: 6
       isSystemEvent: 0
       isGlobal: 0
     - name: Go
