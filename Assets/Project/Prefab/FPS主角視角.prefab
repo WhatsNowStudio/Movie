@@ -5538,7 +5538,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1397243206699198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.15, z: 1.59}
+  m_LocalPosition: {x: 0, y: 0.15, z: 0.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4455187801496660}
@@ -5789,7 +5789,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 26417218e184c61418ccfc7c7447d228, type: 3}
@@ -5797,7 +5797,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 4936243033458952}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -5964,7 +5964,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 8ee6d8693af26c34e9acf8cc50c552b1, type: 2}
@@ -5972,7 +5972,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 4936243033458952}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -6002,7 +6002,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 4acbf04ca4365c44a8a7ee17c18c6969, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6037,7 +6037,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 27f56a137d79cac44845a390eb0696db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6282,7 +6282,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 27f56a137d79cac44845a390eb0696db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6317,7 +6317,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 4acbf04ca4365c44a8a7ee17c18c6969, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6352,7 +6352,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 4acbf04ca4365c44a8a7ee17c18c6969, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6419,7 +6419,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f5d7bc9163a46b04590fbe20c60a1094, type: 2}
@@ -6427,7 +6427,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 4936243033458952}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -6457,7 +6457,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c74334f9980c2e64dbd5621030d9ed60, type: 2}
+  - {fileID: 2100000, guid: 27f56a137d79cac44845a390eb0696db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6594,7 +6594,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: d2b7be492fa86704592474d3794f0742, type: 2}
@@ -6602,7 +6602,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 4936243033458952}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -6664,7 +6664,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: a2ea0d4513cd88040ab398895c3a0115, type: 2}
@@ -6672,7 +6672,7 @@ MeshRenderer:
     firstSubMesh: 0
     subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 4936243033458952}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
@@ -7404,7 +7404,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 0.05
+        value: 0.1
       - useVariable: 1
         name: Walk
         tooltip: 
@@ -8813,12 +8813,6 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Camera
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: {fileID: 1285508443955116}
-      - useVariable: 1
         name: Flashlight
         tooltip: 
         showInInspector: 1
@@ -8837,7 +8831,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -8847,7 +8841,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11111,11 +11105,11 @@ ReflectionProbe:
   serializedVersion: 2
   m_Type: 0
   m_Mode: 1
-  m_RefreshMode: 0
-  m_TimeSlicingMode: 0
+  m_RefreshMode: 1
+  m_TimeSlicingMode: 1
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 3, y: 2, z: 2}
+  m_BoxSize: {x: 0, y: 0, z: 0}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000

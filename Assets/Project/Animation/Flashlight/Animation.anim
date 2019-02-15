@@ -18,7 +18,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 48.23, y: 0, z: 0}
+        value: {x: 68.23801, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -108,28 +108,28 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        value: 0.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.083333336
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 0.25
+        value: 3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: m_Intensity
     path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Spot Light
-    classID: 1
+    classID: 108
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -162,10 +162,10 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3622609558
-      attribute: 2086281974
+      attribute: 898800009
       script: {fileID: 0}
-      typeID: 1
-      customType: 0
+      typeID: 108
+      customType: 25
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -222,7 +222,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 48.23
+        value: 68.23801
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -417,28 +417,28 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        value: 0.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.083333336
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
+        time: 0.25
+        value: 3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsActive
+    attribute: m_Intensity
     path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Spot Light
-    classID: 1
+    classID: 108
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
@@ -448,7 +448,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: R_Hand
+    path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -458,17 +458,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: R_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: R_Hand
+    path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -487,8 +477,18 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand
+    path: R_Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -498,7 +498,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: R_Hand/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand
+    path: R_Hand
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
