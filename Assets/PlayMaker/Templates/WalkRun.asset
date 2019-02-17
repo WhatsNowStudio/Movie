@@ -24,7 +24,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 100
+        y: 116
         width: 100
         height: 80
       isBreakpoint: 0
@@ -291,8 +291,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 234
-        y: 118
+        x: 258
+        y: 113
         width: 100
         height: 32
       isBreakpoint: 0
@@ -499,8 +499,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 238
-        y: 185
+        x: 244
+        y: 191
         width: 100
         height: 48
       isBreakpoint: 0
@@ -527,7 +527,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.GetKeyUp
-        - HutongGames.PlayMaker.Actions.GetMouseButtonDown
+        - HutongGames.PlayMaker.Actions.GetKeyDown
         customNames:
         - 
         - 
@@ -535,7 +535,7 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000200000005000000
-        actionHashCodes: 5ac85204ff77a90434b46c04
+        actionHashCodes: 5ac85204ff77a904ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -705,33 +705,32 @@ MonoBehaviour:
         stringParams:
         - Go
         - 2
-        byteData: 00320100000200000001
+        byteData: 003201000065000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 240000000100000007000000170000001100000007000000170000001100000001000000
+        paramDataType: 2400000001000000070000001700000011000000070000001700000011000000
         paramName:
         - targetProperty
         - everyFrame
         - key
         - sendEvent
         - storeResult
-        - button
+        - key
         - sendEvent
         - storeResult
-        - inUpdateOnly
-        paramDataPos: 000000000000000001000000000000000000000005000000010000000100000009000000
-        paramByteDataSize: 000000000100000004000000000000000000000004000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000050000000100000001000000
+        paramByteDataSize: 0000000001000000040000000000000000000000040000000000000000000000
     - name: SuperSlowWalk
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 228
-        y: 343
+        y: 359
         width: 131.6
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -744,17 +743,27 @@ MonoBehaviour:
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
+      - fsmEvent:
+          name: 1
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SlowWalk
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.GetKeyUp
+        - HutongGames.PlayMaker.Actions.GetKeyDown
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000002000000
-        actionHashCodes: 5ac85204ff77a904
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000200000005000000
+        actionHashCodes: 5ac85204ff77a904ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -910,6 +919,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -917,27 +932,31 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
-        byteData: 0065000000
+        - 1
+        byteData: 006500000032010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000070000001700000011000000
+        paramDataType: 2400000001000000070000001700000011000000070000001700000011000000
         paramName:
         - targetProperty
         - everyFrame
         - key
         - sendEvent
         - storeResult
-        paramDataPos: 0000000000000000010000000000000000000000
-        paramByteDataSize: 0000000001000000040000000000000000000000
+        - key
+        - sendEvent
+        - storeResult
+        paramDataPos: 0000000000000000010000000000000000000000050000000100000001000000
+        paramByteDataSize: 0000000001000000040000000000000000000000040000000000000000000000
     - name: BackWalk
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 241
-        y: 276
+        y: 292
         width: 100
         height: 32
       isBreakpoint: 0
