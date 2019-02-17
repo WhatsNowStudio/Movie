@@ -11109,13 +11109,13 @@ MonoBehaviour:
       enableVolumes: 1
       enableVolumesTextureMask: 1
       enableVolumesNoiseMask: 1
-      enableDirectionalLights: 1
+      enableDirectionalLights: 0
       enableDirectionalLightsShadows: 1
       enableSpotLights: 1
       enableSpotLightsShadows: 1
-      enablePointLights: 1
+      enablePointLights: 0
       enablePointLightsShadows: 1
-      enableLightsCookies: 1
+      enableLightsCookies: 0
       enableOcclusionCulling: 1
       occlusionCullingAccuracy: 2
       enableTemporalReprojection: 1
