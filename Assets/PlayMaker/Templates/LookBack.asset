@@ -49,15 +49,15 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetMouseButtonDown
+        - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.GetKeyDown
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 34b46c04ff77a904
+        actionStartIndex: 0000000003000000
+        actionHashCodes: ff77a904ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -93,24 +93,23 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - 0
         - 1
-        byteData: 010000000172000000
+        - 0
+        byteData: 7200000071000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 07000000170000001100000001000000070000001700000011000000
+        paramDataType: 070000001700000011000000070000001700000011000000
         paramName:
-        - button
-        - sendEvent
-        - storeResult
-        - inUpdateOnly
         - key
         - sendEvent
         - storeResult
-        paramDataPos: 00000000000000000000000004000000050000000100000001000000
-        paramByteDataSize: 04000000000000000000000001000000040000000000000000000000
+        - key
+        - sendEvent
+        - storeResult
+        paramDataPos: 000000000000000000000000040000000100000001000000
+        paramByteDataSize: 040000000000000000000000040000000000000000000000
     - name: "\u8F49\u982D"
       description: 
       colorIndex: 0
@@ -136,15 +135,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.EaseFloat
         - HutongGames.PlayMaker.Actions.SetRotation
-        - HutongGames.PlayMaker.Actions.GetMouseButtonUp
+        - HutongGames.PlayMaker.Actions.GetKeyUp
         customNames:
         - 
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010001
+        actionIsOpen: 000001
         actionStartIndex: 000000000a00000013000000
-        actionHashCodes: bd9b4401979e410434b46c04
+        actionHashCodes: bd9b4401979e4104ff77a904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -256,12 +255,12 @@ MonoBehaviour:
         stringParams:
         - 
         - Go
-        byteData: 04000000000100000001000100000001
+        byteData: 040000000001000000010071000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000700000011000000170000000100000014000000230000001c0000000f0000000f0000000f00000007000000010000000100000007000000170000001100000001000000
+        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f0000000700000011000000170000000100000014000000230000001c0000000f0000000f0000000f000000070000000100000001000000070000001700000011000000
         paramName:
         - fromValue
         - toValue
@@ -282,12 +281,11 @@ MonoBehaviour:
         - space
         - everyFrame
         - lateUpdate
-        - button
+        - key
         - sendEvent
         - storeResult
-        - inUpdateOnly
-        paramDataPos: 0000000001000000020000000300000004000000050000000000000000000000000000000400000000000000000000000000000006000000070000000800000005000000090000000a0000000b00000001000000010000000f000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000004000000010000000100000004000000000000000000000001000000
+        paramDataPos: 0000000001000000020000000300000004000000050000000000000000000000000000000400000000000000000000000000000006000000070000000800000005000000090000000a0000000b0000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000040000000100000001000000040000000000000000000000
     - name: "\u56DE\u982D"
       description: 
       colorIndex: 0
@@ -713,7 +711,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00010101
+        actionIsOpen: 00000000
         actionStartIndex: 00000000080000000d00000018000000
         actionHashCodes: 6ab449040cdb04059399b604979e4104
         unityObjectParams: []
