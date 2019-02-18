@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Settings:
       intensity: 0.5
       radius: 0.75
-      sampleCount: 16
+      sampleCount: 10
       downsampling: 0
       forceForwardCompatibility: 0
       ambientOnly: 0
