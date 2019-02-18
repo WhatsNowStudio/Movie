@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 20684635756061184}
   - component: {fileID: 114973986797547924}
   - component: {fileID: 114673121466352696}
-  - component: {fileID: 114776914347794874}
+  - component: {fileID: 114649197906175902}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -11147,6 +11147,51 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114649197906175902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285508443955116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436f05134eb64694e9f84a322cb5718f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseTex: {fileID: 0}
+  quadMesh: {fileID: 0}
+  hbaoShader: {fileID: 4800000, guid: 7b834eafaedd0d842bb05a969d9d14bd, type: 3}
+  m_Presets:
+    preset: 2
+  m_GeneralSettings:
+    integrationStage: 0
+    quality: 2
+    deinterleaving: 0
+    resolution: 0
+    noiseType: 1
+    displayMode: 0
+  m_AOSettings:
+    radius: 2
+    maxRadiusPixels: 128
+    bias: 0.422
+    intensity: 1.47
+    useMultiBounce: 0
+    multiBounceInfluence: 1
+    offscreenSamplesContribution: 0
+    maxDistance: 25
+    distanceFalloff: 5
+    perPixelNormals: 0
+    baseColor: {r: 0, g: 0, b: 0, a: 1}
+  m_ColorBleedingSettings:
+    enabled: 0
+    saturation: 1
+    albedoMultiplier: 4
+    brightnessMask: 1
+    brightnessMaskRange: {x: 0.8, y: 1.2}
+  m_BlurSettings:
+    amount: 2
+    sharpness: 8
+    downsample: 0
 --- !u!114 &114661770592414000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11416,51 +11461,6 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u96FB\u8A71\u4F86\u96FB\u88AB\u602A\u7269\u767C\u73FE,\u4E3B\u89D2\u614C\u4E82\u4E2D\u6253\u958B\u624B\u96FB\u7B52"
---- !u!114 &114776914347794874
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1285508443955116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd14c7abcfeeeee4684c917d077a7e30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noiseTex: {fileID: 0}
-  quadMesh: {fileID: 0}
-  hbaoShader: {fileID: 4800000, guid: 7b834eafaedd0d842bb05a969d9d14bd, type: 3}
-  m_Presets:
-    preset: 2
-  m_GeneralSettings:
-    integrationStage: 0
-    quality: 2
-    deinterleaving: 0
-    resolution: 0
-    noiseType: 1
-    displayMode: 0
-  m_AOSettings:
-    radius: 1.01
-    maxRadiusPixels: 128
-    bias: 0.05
-    intensity: 1
-    useMultiBounce: 1
-    multiBounceInfluence: 1
-    offscreenSamplesContribution: 0
-    maxDistance: 30
-    distanceFalloff: 8
-    perPixelNormals: 1
-    baseColor: {r: 0, g: 0, b: 0, a: 1}
-  m_ColorBleedingSettings:
-    enabled: 0
-    saturation: 1
-    albedoMultiplier: 4
-    brightnessMask: 1
-    brightnessMaskRange: {x: 0.8, y: 1.2}
-  m_BlurSettings:
-    amount: 2
-    sharpness: 8
-    downsample: 0
 --- !u!114 &114781041467554408
 MonoBehaviour:
   m_ObjectHideFlags: 1
