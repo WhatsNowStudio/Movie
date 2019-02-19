@@ -39,3 +39,4 @@ MonoBehaviour:
   events:
   - ForceLookBack
   - TouchTrigger
+  - Process

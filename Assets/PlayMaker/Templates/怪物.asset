@@ -2578,7 +2578,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: Process
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: TouchTrigger
       isSystemEvent: 0
       isGlobal: 1
