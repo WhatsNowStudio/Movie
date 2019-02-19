@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 114885727149366706}
   - component: {fileID: 82721769823564438}
   m_Layer: 0
-  m_Name: "\u96FB\u8996\u51FA\u73FEQRCODE"
+  m_Name: "\u6383\u63CFQRCODE"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9422,7 +9422,7 @@ MonoBehaviour:
               tooltip: 
               showInInspector: 0
               networkSync: 0
-              value: {fileID: 0}
+              value: {fileID: 1851332578855414}
           fsmName:
             useVariable: 0
             name: 
