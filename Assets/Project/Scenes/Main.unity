@@ -416,37 +416,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &72843321
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &76991646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1423449838817680, guid: 53d16baaf4c0494479589194abd5cd92,
@@ -2140,6 +2109,27 @@ Prefab:
       propertyPath: m_ProbeAnchor
       value: 
       objectReference: {fileID: 1180509250}
+    - target: {fileID: 328765865706564508, guid: 24e5f005f1ee173449f3638934da1472,
+        type: 2}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: d691d360b7313484bb928e6dc5a00795,
+        type: 3}
+    - target: {fileID: 328478023379642250, guid: 24e5f005f1ee173449f3638934da1472,
+        type: 2}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 1835f565722b5254eb2846d8bf2edc2b,
+        type: 3}
+    - target: {fileID: 1086763052588334, guid: 24e5f005f1ee173449f3638934da1472, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 328765865706564508, guid: 24e5f005f1ee173449f3638934da1472,
+        type: 2}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e5f005f1ee173449f3638934da1472, type: 2}
   m_IsPrefabAsset: 0
@@ -2186,7 +2176,12 @@ Prefab:
         type: 2}
       propertyPath: shadowMapRenderTexture
       value: 
-      objectReference: {fileID: 72843321}
+      objectReference: {fileID: 0}
+    - target: {fileID: 114130938148677792, guid: 2d1bcb0f44bf2484a82e458c9b9a9879,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d1bcb0f44bf2484a82e458c9b9a9879, type: 2}
   m_IsPrefabAsset: 0
@@ -2272,6 +2267,106 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9dd9a2c4d407c340b664596e299d757, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &813849783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1466480377404302, guid: 24e5f005f1ee173449f3638934da1472,
+    type: 2}
+  m_PrefabInternal: {fileID: 599798689}
+--- !u!82 &813849788
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813849783}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d1fbef72f347e0041b2ed678e7a36afa, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &819077131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,37 +2462,6 @@ Transform:
   m_Father: {fileID: 1957676541}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &981118314
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1011451612
 GameObject:
   m_ObjectHideFlags: 0
@@ -5519,6 +5583,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114754196078163448, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114754196078163448, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114754196078163448, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 82190292}
@@ -5527,11 +5601,136 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 328623238}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
     - target: {fileID: 114466845230381100, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 328623238}
+    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 76991646}
+    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 76991646}
+    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 258691439}
+    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 258691439}
+    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
     - target: {fileID: 114550662355103172, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
@@ -5542,26 +5741,56 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 328623238}
-    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 82190292}
-    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 328623238}
-    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114891850353261520, guid: a329050accfc4e345b398191f65f0a34,
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
-      objectReference: {fileID: 82190292}
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 42017023}
     - target: {fileID: 114154558985803630, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
@@ -5572,6 +5801,81 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 42017023}
+    - target: {fileID: 114614350905878724, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114614350905878724, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114134315456343520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114134315456343520, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114788444240212840, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114788444240212840, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 328623238}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 42017023}
+    - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
+        type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[2].gameObject.gameObject.value
+      value: 
+      objectReference: {fileID: 1251026057}
     - target: {fileID: 114076582772537878, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
@@ -5587,101 +5891,30 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
       value: 
       objectReference: {fileID: 1251026057}
-    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
       value: 
-      objectReference: {fileID: 258691439}
-    - target: {fileID: 114703813987577954, guid: a329050accfc4e345b398191f65f0a34,
+      objectReference: {fileID: 82190292}
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[1].gameObject.gameObject.value
       value: 
       objectReference: {fileID: 328623238}
-    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 82190292}
-    - target: {fileID: 114129218940013206, guid: a329050accfc4e345b398191f65f0a34,
+    - target: {fileID: 114921109636588726, guid: a329050accfc4e345b398191f65f0a34,
         type: 2}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 328623238}
-    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114012001154425000, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114712876458423976, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114788444240212840, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114263678046797630, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114792959822029126, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 42017023}
-    - target: {fileID: 114614350905878724, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114807600248680468, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 82190292}
-    - target: {fileID: 114231312960160902, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114134315456343520, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 328623238}
-    - target: {fileID: 114356525125757958, guid: a329050accfc4e345b398191f65f0a34,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 76991646}
+    - target: {fileID: 4014032768858794, guid: a329050accfc4e345b398191f65f0a34, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 71.52
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a329050accfc4e345b398191f65f0a34, type: 2}
   m_IsPrefabAsset: 0
@@ -7553,16 +7786,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
-        type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
-      objectReference: {fileID: 258691439}
-    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
-        type: 2}
-      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
-      value: 
-      objectReference: {fileID: 258691439}
     - target: {fileID: 114202338197765022, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
       propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -7573,11 +7796,16 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 82190292}
-    - target: {fileID: 114134946029437562, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
         type: 2}
-      propertyPath: fsm.preprocessed
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 258691439}
+    - target: {fileID: 114885727149366706, guid: eec36507a0852cb4cb2cdae0a6f0bff5,
+        type: 2}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 258691439}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eec36507a0852cb4cb2cdae0a6f0bff5, type: 2}
   m_IsPrefabAsset: 0
