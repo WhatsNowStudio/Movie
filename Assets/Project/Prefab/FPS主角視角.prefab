@@ -9161,7 +9161,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 2.4
+        value: 1.8
       intVariables: []
       boolVariables:
       - useVariable: 1
